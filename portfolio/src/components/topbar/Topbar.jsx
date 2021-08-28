@@ -11,11 +11,11 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
           </a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>+54 388323132</span>
+            <span>+54 3884639747</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>safak@genius.com</span>
+            <span>mauroox09@gmail.com</span>
           </div>
         </div>
         <div className="right">

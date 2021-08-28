@@ -8,7 +8,7 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed: 60,
       showCursor: true,
-      strings: ["Developer!", "FrontEnd", "BackEnd"],
+      strings: ["Full Stack", "Developer!", "FrontEnd", "BackEnd"],
     });
   }, []);
   return (
