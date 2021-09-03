@@ -23,7 +23,7 @@ const Intro = () => {
           <h2>Hi There, I'm</h2>
           <h1>Mauro Loyola</h1>
           <h3>
-            Jobkeeper <span ref={textRef}></span>
+            Looking for a job of <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
