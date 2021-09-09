@@ -3,28 +3,31 @@ const Testimonials = () => {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
-      img: "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/twitter.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      name: "Lucas Lopez",
+      title: "Full Stack Developer",
+      img: "https://avatars.githubusercontent.com/u/82116213?v=4",
+      href: "https://www.linkedin.com/in/lucas-luciano-lopez/",
+      icon: "assets/linkedin.png",
+      desc: "Gran trabajador y programador, siempre dispuesto a ayudar en cualquier problema que encuentre.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      name: "Leonel LLane",
+      title: "Full Stack Developer",
+      img: "https://avatars.githubusercontent.com/u/78386531?v=4",
+      href: "https://www.linkedin.com/in/leonel-agustin-llane-02981b209/",
+      icon: "assets/linkedin.png",
+      desc: "Una persona dedicada y la verdad me ayudó en todo mi camino como developer, muy dedicado y empático con todos los que se encuentra.",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
-      img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Joaquín Cardozo",
+      title: "Frontend Web Developer en Neivor",
+      img: "https://avatars.githubusercontent.com/u/44176231?v=4",
       icon: "assets/linkedin.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      href: "https://www.linkedin.com/in/joaquin-cardozo/",
+      desc: "Excelente programador y persona dedicada, muy abierto a ideas e innovador ",
     },
   ];
   return (
@@ -36,7 +39,9 @@ const Testimonials = () => {
             <div className="top">
               <img src="assets/right-arrow.png" className="left" alt="" />
               <img className="user" src={t.img} alt="" />
-              <img className="right" src={t.icon} alt="" />
+              <a href={t.href}>
+                <img className="right" src={t.icon} alt="" />
+              </a>
             </div>
             <div className="center">{t.desc}</div>
             <div className="bottom">

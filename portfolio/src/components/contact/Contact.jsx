@@ -18,7 +18,11 @@ const Contact = () => {
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
-          {message && <span> Thanks, I'll reply ASAP :)</span>}
+          {message && (
+            <span>{`Thanks, I'll reply you soon :)
+          ----------------------------------------
+          Muchas gracias, te voy a responder en instantes :)`}</span>
+          )}
         </form>
       </div>
     </div>
