@@ -8,7 +8,7 @@ const Testimonials = () => {
       img: "https://avatars.githubusercontent.com/u/82116213?v=4",
       href: "https://www.linkedin.com/in/lucas-luciano-lopez/",
       icon: "assets/linkedin.png",
-      desc: "Gran trabajador y programador, siempre dispuesto a ayudar en cualquier problema que encuentre.",
+      desc: `"Gran trabajador y programador, siempre dispuesto a ayudar en cualquier problema que encuentre."`,
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const Testimonials = () => {
       img: "https://avatars.githubusercontent.com/u/78386531?v=4",
       href: "https://www.linkedin.com/in/leonel-agustin-llane-02981b209/",
       icon: "assets/linkedin.png",
-      desc: "Una persona dedicada y la verdad me ayudó en todo mi camino como developer, muy dedicado y empático con todos los que se encuentra.",
+      desc: `"Una persona dedicada y la verdad me ayudó en todo mi camino como developer, muy sociable y empático con todos los que se encuentra."`,
       featured: true,
     },
     {
@@ -27,7 +27,7 @@ const Testimonials = () => {
       img: "https://avatars.githubusercontent.com/u/44176231?v=4",
       icon: "assets/linkedin.png",
       href: "https://www.linkedin.com/in/joaquin-cardozo/",
-      desc: "Excelente programador y persona dedicada, muy abierto a ideas e innovador ",
+      desc: `"Excelente programador y persona, muy abierto a ideas e innovador. Tiene la habilidad de adaptarse rápido al ambiente"`,
     },
   ];
   return (
