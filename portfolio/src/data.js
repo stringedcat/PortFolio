@@ -3,11 +3,7 @@ export const featuredPortfolio = [
     id: 1,
     title: "Food Recipes App",
     img: "https://i.imgur.com/gLTamGD.png",
-  },
-  {
-    id: 2,
-    title: "Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+    href: "https://github.com/stringedcat/loyolarecipes",
   },
 ];
 
@@ -15,11 +11,11 @@ export const webPortfolio = [
   {
     id: 1,
     title: "Food Recipes App",
-    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    img: "https://i.imgur.com/gLTamGD.png",
   },
   {
     id: 2,
-    title: "Web Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+    title: "Lessons Online e-commerce",
+    img: "https://user-images.githubusercontent.com/78386531/127190049-39886743-5e39-4282-939a-30e342ed1790.png",
   },
 ];

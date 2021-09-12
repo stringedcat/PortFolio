@@ -15,8 +15,8 @@ const Contact = () => {
       <div className="right">
         <h2>Contact</h2>
         <form onSubmit={(e) => handleSubmit(e)}>
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
+          <input type="text" placeholder="Email" required />
+          <textarea placeholder="Message" required></textarea>
           <button type="submit">Send</button>
           {message && (
             <span>{`Thanks, I'll reply you soon :)

@@ -40,18 +40,18 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         {data.map((e) => (
-          <div className="item">
+          <div className="item" data-aos="flip-left">
             <img src={e.img} alt="" />
             <h3>{e.title}</h3>
           </div>
         ))}
-        <div className="item">
+        {/*   <div className="item">
           <img
             src="https://www.smdwebtech.com/wp-content/uploads/2020/11/Mobile-Banking_1.png"
             alt=""
           />
           <h3>Banking App</h3>
-        </div>
+        </div> */}
       </div>
     </div>
   );
