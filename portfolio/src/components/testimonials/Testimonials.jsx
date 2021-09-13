@@ -27,7 +27,7 @@ const Testimonials = () => {
       img: "https://avatars.githubusercontent.com/u/44176231?v=4",
       icon: "assets/linkedin.png",
       href: "https://www.linkedin.com/in/joaquin-cardozo/",
-      desc: `"Excelente programador y persona, muy abierto a ideas e innovador. Tiene la habilidad de adaptarse rápido al ambiente"`,
+      desc: `"Excelente programador y persona, muy abierto a ideas e innovador. Tiene la habilidad de adaptarse rápido al ambiente."`,
     },
   ];
   return (

@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .works {
-  background-color: crimson;
+  background-color: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,10 +102,10 @@
                 display: none;
               }
             }
-            span {
+            a {
               font-size: 12px;
               font-weight: 600;
-              text-decoration: underline;
+              text-decoration: none;
             }
           }
         }
@@ -116,9 +116,15 @@
           align-items: center;
           justify-content: center;
           overflow: hidden;
-          img {
+          iframe {
             width: 400px;
             transform: rotate(-10deg);
+            height: 250px;
+            @include mobile {
+              height: 100%;
+              width: 100%;
+              transform: none;
+            }
           }
         }
       }

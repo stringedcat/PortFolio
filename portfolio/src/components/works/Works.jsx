@@ -7,16 +7,18 @@ const Works = () => {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+      title: "Recipes App",
+      desc: "A project about recipes, using an api and used tools learned in a bootcamp ",
+      src: "https://www.youtube.com/embed/xFTOmq1HMR8",
+      rep: "https://github.com/stringedcat/loyolarecipes",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      title: "Lessons Online",
+      desc: "A e-commerce about lessons online, using metodology SCRUM, tools learned in a bootcamp and more firebase, typescript, and bootstrap. (Video is missing)",
+      src: "https://www.youtube.com/embed/Iqr3XIhSnUQ",
+      rep: "",
     },
   ];
   const handleClick = (way) => {
@@ -40,11 +42,17 @@ const Works = () => {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <a href={d.rep}>Github Repositore</a>
                 </div>
               </div>
               <div className="right">
-                <img src={d.img} alt="" />
+                <iframe
+                  src={d.src}
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>

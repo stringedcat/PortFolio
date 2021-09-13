@@ -1,0 +1,28 @@
+@import "../../global.scss";
+
+.aboutme {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    animation: type 3s steps(37);
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 40px;
+    border-right: 4px solid black;
+    width: 37ch;
+    @include mobile {
+      flex-direction: column;
+      font-size: 17px;
+    }
+    @keyframes type {
+      0% {
+        width: 0ch;
+      }
+      100% {
+        width: 37ch;
+      }
+    }
+  }
+}
