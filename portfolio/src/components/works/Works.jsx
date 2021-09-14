@@ -17,8 +17,8 @@ const Works = () => {
       icon: "./assets/globe.png",
       title: "Lessons Online",
       desc: "A e-commerce about lessons online, using metodology SCRUM, tools learned in a bootcamp and more firebase, typescript, and bootstrap. (Video is missing)",
-      src: "https://www.youtube.com/embed/Iqr3XIhSnUQ",
-      rep: "",
+      src: "https://www.youtube.com/embed/Hfm94aHAbYQ",
+      rep: "https://github.com/DiegoAraujoJS/PF_E-Commerce",
     },
   ];
   const handleClick = (way) => {
