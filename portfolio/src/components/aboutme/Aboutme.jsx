@@ -4,6 +4,9 @@ const Aboutme = () => {
   return (
     <section>
       <div class="wavetop wavetop1"></div>
+      <div class="wavetop wavetop2"></div>
+      <div class="wavetop wavetop3"></div>
+      <div class="wavetop wavetop4"></div>
       {/*       <h3 class="h3a">
         I'm very excited to learn and keep growing my abilites as programmer,
         this is my portfolio and hope you like it, I make it with React.JS and
@@ -14,8 +17,9 @@ const Aboutme = () => {
         features that the new companies are using✨ .
       </h3> */}
       <h2 class="h2a">
-        I'm 23 years old and I'm a Full Stack Developer, who wants to learn evey
-        time
+        I'm 23 years old and I'm a Full Stack Developer, who wants to learn
+        every time. This portfolio was made with React and Sass, hope you like
+        it
       </h2>
       <h2 class="h2ab">
         I know React.JS, Node.JS, Redux.JS, Express.JS, PostgreSQL, Sequelize

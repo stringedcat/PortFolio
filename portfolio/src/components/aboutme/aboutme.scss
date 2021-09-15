@@ -71,6 +71,20 @@ section .wavetop.wavetop2 {
   animation-delay: -5s;
   bottom: 10px;
 }
+section .wavetop.wavetop3 {
+  animation: animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+section .wavetop.wavetop4 {
+  animation: animate2 15s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
 @keyframes animate2 {
   0% {
     background-position-x: 0;
