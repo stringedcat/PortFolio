@@ -38,12 +38,15 @@
       @include mobile {
         align-items: flex-start;
         scroll-behavior: unset;
+        height: 350px;
+        width: 350px;
       }
 
       img {
         height: 90%;
         @include mobile {
-          height: 60%;
+          margin-top: 20%;
+          height: 79.9%;
         }
       }
     }
