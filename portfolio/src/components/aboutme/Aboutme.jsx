@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutme.scss";
 const Aboutme = () => {
   return (
-    <section>
+    <section id="aboutme">
       <div class="wavetop wavetop1"></div>
       <div class="wavetop wavetop2"></div>
       <div class="wavetop wavetop3"></div>
