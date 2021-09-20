@@ -17,13 +17,13 @@ const Aboutme = () => {
         features that the new companies are using✨ .
       </h3> */}
       <h2 class="h2a">
-        I'm 23 years old and I'm a Full Stack Developer, who wants to learn
-        every time. This portfolio was made with React and Sass, hope you like
-        it
+        I'm 23 years old and I'm a Full Stack Developer, who wants to learn and
+        challenge myself. This portfolio was made with React and Sass, hope you
+        like it!!
       </h2>
       <h2 class="h2ab">
         I know React.JS, Node.JS, Redux.JS, Express.JS, PostgreSQL, Sequelize
-        and more learned on my own
+        and more technologies. Always increasing my knowledge!!
       </h2>
       <div class="wave wave1"></div>
       <div class="wave wave2"></div>

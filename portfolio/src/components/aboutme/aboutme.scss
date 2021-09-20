@@ -20,23 +20,25 @@
   display: flex;
   justify-content: center;
   color: white;
+  font-size: 35px;
   align-items: center;
   @include mobile {
     flex-direction: column;
     margin-top: 70%;
-    font-size: 13px;
+    font-size: 19px;
   }
 }
 .h2ab {
-  margin-top: 15%;
+  margin-top: 10%;
   display: flex;
+  font-size: 35px;
   justify-content: center;
   color: white;
   align-items: center;
   @include mobile {
     flex-direction: column;
-    margin-top: 70%;
-    font-size: 13px;
+    margin-top: 30%;
+    font-size: 19px;
   }
 }
 section {
