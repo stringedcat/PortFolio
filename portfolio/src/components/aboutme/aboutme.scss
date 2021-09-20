@@ -21,11 +21,13 @@
   justify-content: center;
   color: white;
   font-size: 35px;
+  padding: 40px;
   align-items: center;
   @include mobile {
     flex-direction: column;
-    margin-top: 70%;
+    margin-top: 35%;
     font-size: 19px;
+    padding: 20px;
   }
 }
 .h2ab {
@@ -34,11 +36,13 @@
   font-size: 35px;
   justify-content: center;
   color: white;
+  padding: 40px;
   align-items: center;
   @include mobile {
     flex-direction: column;
     margin-top: 30%;
     font-size: 19px;
+    padding: 20px;
   }
 }
 section {
