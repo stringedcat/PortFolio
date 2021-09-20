@@ -10,12 +10,10 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
             MauroL
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+54 3884639747</span>
+            <span></span>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>mauroox09@gmail.com</span>
+            <span></span>
           </div>
         </div>
         <div className="right">
