@@ -22,6 +22,7 @@
       float: right;
       background-size: 400% 400%;
       position: relative;
+      overflow: hidden;
       animation: change 5s ease-in-out infinite;
 
       @keyframes change {
@@ -44,6 +45,7 @@
 
       img {
         height: 90%;
+        overflow: hidden;
         @include mobile {
           margin-top: 20%;
           height: 79.9%;
