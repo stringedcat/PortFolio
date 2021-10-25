@@ -1,5 +1,4 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
 const Topbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
