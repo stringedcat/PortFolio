@@ -42,7 +42,7 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         {data.map((e) => (
-          <div className="item" data-aos="flip-left">
+          <div className="item">
             <img src={e.img} alt="" />
             <h3>{e.title}</h3>
           </div>
