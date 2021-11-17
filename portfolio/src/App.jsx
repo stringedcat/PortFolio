@@ -20,7 +20,6 @@ function App() {
         <Aboutme />
         <Portfolio />
         <Works />
-        <Testimonials />
         <Contact />
       </div>
     </div>
