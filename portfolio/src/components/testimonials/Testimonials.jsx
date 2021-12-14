@@ -12,22 +12,22 @@ const Testimonials = () => {
     },
     {
       id: 2,
+      name: "Joaquín Cardozo",
+      title: "FrontendDeveloper en BeGo",
+      img: "https://avatars.githubusercontent.com/u/44176231?v=4",
+      icon: "assets/linkedin.png",
+      href: "https://www.linkedin.com/in/joaquin-cardozo/",
+      desc: `"Excelente programador y persona, muy abierto a ideas e innovador. Tiene la habilidad de adaptarse rápido al ambiente."`,
+      featured: true,
+    },
+    {
+      id: 3,
       name: "Leonel LLane",
       title: "Full Stack Developer",
       img: "https://avatars.githubusercontent.com/u/78386531?v=4",
       href: "https://www.linkedin.com/in/leonel-agustin-llane-02981b209/",
       icon: "assets/linkedin.png",
       desc: `"Una persona dedicada y la verdad me ayudó en todo mi camino como developer, muy sociable y empático con todos los que se encuentra."`,
-      featured: true,
-    },
-    {
-      id: 3,
-      name: "Joaquín Cardozo",
-      title: "Frontend Web Developer en Neivor",
-      img: "https://avatars.githubusercontent.com/u/44176231?v=4",
-      icon: "assets/linkedin.png",
-      href: "https://www.linkedin.com/in/joaquin-cardozo/",
-      desc: `"Excelente programador y persona, muy abierto a ideas e innovador. Tiene la habilidad de adaptarse rápido al ambiente."`,
     },
   ];
   return (

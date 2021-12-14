@@ -12,6 +12,9 @@
     overflow: hidden;
 
     img {
+      @include mobile {
+        margin-left: 15px;
+      }
       height: 75%;
     }
   }

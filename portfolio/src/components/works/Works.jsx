@@ -20,6 +20,14 @@ const Works = () => {
       src: "https://www.youtube.com/embed/Hfm94aHAbYQ",
       rep: "https://github.com/DiegoAraujoJS/PF_E-Commerce",
     },
+    {
+      id: "3",
+      icon: "./assets/globe.png",
+      title: "Authentication App",
+      desc: "An app about authentication using node.js, express.js, passport.js and react for the front end. Login with google, facebook and github",
+      src: "https://www.youtube.com/embed/mLuobdyd97M",
+      rep: "https://github.com/stringedcat/loginPassport",
+    },
   ];
   const handleClick = (way) => {
     way === "left"
