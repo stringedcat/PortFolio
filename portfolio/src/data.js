@@ -14,7 +14,7 @@ export const webPortfolio = [
   {
     id: 3,
     title: "OAuth App",
-    img: "https://user-images.githubusercontent.com/78386531/127190049-39886743-5e39-4282-939a-30e342ed1790.png",
+    img: "https://i.imgur.com/nJzHzjs.png",
     repo: "https://github.com/stringedcat/loginPassport",
   },
   {
