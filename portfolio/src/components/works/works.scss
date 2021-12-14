@@ -93,6 +93,7 @@
             }
             h2 {
               font-size: 20px;
+              color: $mainColor;
               @include mobile {
                 font-size: 13px;
               }
@@ -107,6 +108,7 @@
               font-size: 12px;
               font-weight: 600;
               text-decoration: none;
+              color: $mainColor;
             }
           }
         }
