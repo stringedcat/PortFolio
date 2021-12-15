@@ -20,10 +20,10 @@ const Intro = () => {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There, I'm</h2>
+          <h2>Welcome, I'm</h2>
           <h1>Mauro Loyola</h1>
           <h3>
-            Looking for a job of <span ref={textRef}></span>
+            and I'm a <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">

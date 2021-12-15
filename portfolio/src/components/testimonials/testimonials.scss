@@ -8,6 +8,7 @@
     justify-content: space-around;
   }
   h1 {
+    color: #00bfa6;
     font-size: 50px;
     @include mobile {
       font-style: 20px;
@@ -60,10 +61,9 @@
             height: 26px;
           }
           &.user {
-            height: 60px;
-            width: 60px;
-            border-radius: 50%;
-            object-fit: cover;
+            height: 70px;
+            width: 70px;
+            object-fit: fill;
             margin: 0 30px;
             @include mobile {
               width: 30px;
