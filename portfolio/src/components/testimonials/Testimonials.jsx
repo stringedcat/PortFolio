@@ -39,6 +39,7 @@ const Testimonials = () => {
             <div className="top">
               <img src="assets/right-arrow.png" className="left" alt="" />
               <img className="user" src={t.img} alt="" />
+
               {/*             <a href={t.href}>
                 <img className="right" src={t.icon} alt="" />
               </a> */}
