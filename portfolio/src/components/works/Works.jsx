@@ -11,14 +11,16 @@ const Works = () => {
       desc: "A project about recipes, using an api and used tools learned in a bootcamp ",
       src: "https://www.youtube.com/embed/xFTOmq1HMR8",
       rep: "https://github.com/stringedcat/loyolarecipes",
+      pag: "",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "Lessons Online",
-      desc: "A e-commerce about lessons online, using metodology SCRUM, tools learned in a bootcamp and more firebase, typescript, and bootstrap. (Video is missing)",
+      desc: "A practice App using Material UI library to do a mocked data with React.js ",
       src: "https://www.youtube.com/embed/Hfm94aHAbYQ",
       rep: "https://github.com/DiegoAraujoJS/PF_E-Commerce",
+      pag: "https://mauro-movies-material-ui.vercel.app/",
     },
     {
       id: "3",
@@ -27,6 +29,7 @@ const Works = () => {
       desc: "An app about authentication using node.js, express.js, passport.js and react for the front end. You can login into the webpage with google, facebook and github",
       src: "https://www.youtube.com/embed/mLuobdyd97M",
       rep: "https://github.com/stringedcat/loginPassport",
+      pag: "",
     },
   ];
   const handleClick = (way) => {
