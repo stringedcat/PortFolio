@@ -39,8 +39,9 @@
       @include mobile {
         align-items: flex-start;
         scroll-behavior: unset;
-        height: 350px;
-        width: 350px;
+        margin-top: 35px;
+        height: 250px;
+        width: 250px;
       }
 
       img {
@@ -48,7 +49,7 @@
         overflow: hidden;
         @include mobile {
           margin-top: 20%;
-          height: 79.9%;
+          height: 80%;
         }
       }
     }
@@ -64,6 +65,7 @@
       flex-direction: column;
       justify-content: center;
       @include mobile {
+        margin-top: -50px;
         padding-left: 0;
         align-items: center;
       }
