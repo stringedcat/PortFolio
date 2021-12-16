@@ -8,7 +8,7 @@ const Works = () => {
       id: "1",
       icon: "./assets/mobile.png",
       title: "Recipes App",
-      desc: "A project about recipes, using an api and used tools learned in a bootcamp: Nodejs, Reactjs, Redux,js, Expressjs, Sequelize and PostgreSQL. ",
+      desc: "A project about recipes, using an external api and tools learned in a bootcamp: Nodejs, Reactjs, Reduxjs, Expressjs, Sequelize ORM and PostgreSQL. ",
       src: "https://www.youtube.com/embed/xFTOmq1HMR8",
       react: true,
       node: true,
@@ -23,7 +23,7 @@ const Works = () => {
       id: "2",
       icon: "./assets/globe.png",
       title: "Movies MaterialUI",
-      desc: "A practice App using Material UI library to do a mocked data with React.js ",
+      desc: "A practice App using Material UI library to do a mocked data with React.js and Redux.js",
       src: "https://www.youtube.com/embed/Hfm94aHAbYQ",
       react: true,
       redux: true,
@@ -35,7 +35,7 @@ const Works = () => {
       id: "3",
       icon: "./assets/globe.png",
       title: "Authentication App",
-      desc: "An app about authentication using node.js, express.js, passport.js and react for the front end. You can login into the webpage with google, facebook and github",
+      desc: "An app about authentication using node.js, express.js, passport.js and react.js for the front end. You can login into the webpage with google, facebook and github.",
       src: "https://www.youtube.com/embed/mLuobdyd97M",
       react: true,
       node: true,
@@ -147,6 +147,7 @@ const Works = () => {
         onClick={() => handleClick("right")}
         alt=""
       ></img>
+      <div className="scrolldown"></div>
     </div>
   );
 };

@@ -10,6 +10,9 @@ const Portfolio = () => {
     { id: "web", title: "Web App" },
     { id: "mobile", title: "Mobile App" },
   ];
+  const goToWork = () => {
+    window.location.href = "/#work";
+  };
   useEffect(() => {
     switch (selected) {
       case "web":
@@ -18,6 +21,8 @@ const Portfolio = () => {
       case "mobile":
         setData(mobilePortfolio);
         break;
+      case "default":
+        return;
     }
   }, [selected]);
   return (
@@ -35,10 +40,13 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         {data.map((e) => (
-          <div className="item">
-            <img src={e.img} alt="" />
-            <h3>{e.title}</h3>
-          </div>
+          <a href="/#works">
+            {" "}
+            <div className="item">
+              <img src={e.img} alt="" />
+              <h3>{e.title}</h3>
+            </div>
+          </a>
         ))}
         {/*   <div className="item">
           <img

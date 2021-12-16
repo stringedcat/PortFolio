@@ -27,7 +27,7 @@ const Intro = () => {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+          <div className="scrolldown"></div>
         </a>
       </div>
     </div>

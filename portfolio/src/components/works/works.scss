@@ -130,7 +130,6 @@
           overflow: hidden;
           iframe {
             width: 400px;
-            transform: rotate(-10deg);
             height: 250px;
             @include mobile {
               height: 100%;
@@ -140,6 +139,57 @@
           }
         }
       }
+    }
+  }
+  .scrolldown {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 49%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    @include mobile {
+      height: 40px;
+      width: 40px;
+      left: 49%;
+    }
+  }
+  .scrolldown::before,
+  .scrolldown::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid white;
+    height: 7px;
+    width: 5px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scrolldown 1s ease-in-out infinite;
+    @include mobile {
+      height: 3px;
+      width: 3px;
+    }
+  }
+  .scrolldown::after {
+    top: 30%;
+    animation-delay: 0.3s;
+  }
+  @keyframes scrolldown {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      top: 90%;
     }
   }
 }
