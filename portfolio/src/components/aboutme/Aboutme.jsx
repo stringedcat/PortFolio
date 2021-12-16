@@ -25,7 +25,11 @@ const Aboutme = () => {
         I know React.JS, Node.JS, Redux.JS, Express.JS, PostgreSQL, Sequelize
         and more technologies. Always increasing my knowledge!
       </h2>
-      <div className="scrolldown"></div>
+      <a href="/#portfolio">
+        {" "}
+        <div className="scrolldown"></div>
+      </a>
+
       <div class="wave wave1"></div>
       <div class="wave wave2"></div>
       <div class="wave wave3"></div>

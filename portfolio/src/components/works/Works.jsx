@@ -147,7 +147,10 @@ const Works = () => {
         onClick={() => handleClick("right")}
         alt=""
       ></img>
-      <div className="scrolldown"></div>
+      <a href="/#testimonials">
+        {" "}
+        <div className="scrolldown"></div>
+      </a>
     </div>
   );
 };
