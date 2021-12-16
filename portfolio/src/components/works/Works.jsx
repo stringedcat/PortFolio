@@ -119,7 +119,7 @@ const Works = () => {
                   </div>
 
                   <p>{d.desc}</p>
-                  <a href={d.rep}>Github Repositore</a>
+                  <a href={d.rep}>Github Repository</a>
                 </div>
               </div>
               <div className="right">
