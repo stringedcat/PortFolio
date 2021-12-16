@@ -24,7 +24,7 @@ const Works = () => {
       icon: "./assets/globe.png",
       title: "Movies MaterialUI",
       desc: "A practice App using Material UI library to do a mocked data with React.js and Redux.js",
-      src: "https://www.youtube.com/embed/Hfm94aHAbYQ",
+      src: "https://www.youtube.com/embed/6WwXi5659qY",
       react: true,
       redux: true,
       material: true,
