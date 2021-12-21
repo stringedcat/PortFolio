@@ -28,7 +28,7 @@ const Works = () => {
       react: true,
       redux: true,
       material: true,
-      rep: "https://github.com/DiegoAraujoJS/PF_E-Commerce",
+      rep: "https://github.com/stringedcat/MoviesMaterialUI",
       pag: "https://mauro-movies-material-ui.vercel.app/",
     },
     {
