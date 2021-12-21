@@ -23,7 +23,7 @@
     }
   }
   .slider {
-    height: 350px;
+    height: 500px;
     display: flex;
     position: absolute;
     left: 0;
@@ -41,7 +41,7 @@
       justify-content: center;
 
       .item {
-        width: 700px;
+        width: 1000px;
         height: 100%;
         background-color: white;
         border-radius: 20px;
@@ -73,8 +73,8 @@
               margin-left: 0px;
             }
             .imgContainer {
-              width: 200px;
-              height: 100px;
+              width: 300px;
+              height: 150px;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -82,8 +82,8 @@
                 display: none;
               }
               img {
-                height: 30px;
-                width: 50px;
+                height: 50px;
+                width: 70px;
                 margin-left: 5px;
                 @include mobile {
                   width: 15px;
@@ -92,29 +92,29 @@
             }
             h2 {
               text-decoration: underline;
-              font-size: 20px;
-              margin-bottom: 10px;
+              font-size: 30px;
+              margin-bottom: 20px;
               color: $mainColor;
               @include mobile {
                 font-size: 11px;
               }
             }
             h4 {
-              font-size: 17px;
+              font-size: 20px;
               color: $mainColor;
               @include mobile {
                 display: none;
               }
             }
             p {
-              font-size: 13px;
+              font-size: 19px;
               @include mobile {
                 display: none;
               }
             }
             a {
               margin-top: 30px;
-              font-size: 16px;
+              font-size: 20px;
               font-weight: bold;
               text-decoration: none;
               color: $mainColor;
@@ -129,8 +129,8 @@
           justify-content: center;
           overflow: hidden;
           iframe {
-            width: 400px;
-            height: 250px;
+            width: 600px;
+            height: 400px;
             @include mobile {
               height: 100%;
               width: 100%;
