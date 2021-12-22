@@ -10,9 +10,6 @@ const Portfolio = () => {
     { id: "web", title: "Web App" },
     { id: "mobile", title: "Mobile App" },
   ];
-  const goToWork = () => {
-    window.location.href = "/#work";
-  };
   useEffect(() => {
     switch (selected) {
       case "web":
@@ -21,8 +18,8 @@ const Portfolio = () => {
       case "mobile":
         setData(mobilePortfolio);
         break;
-      case "default":
-        return;
+      default:
+        break;
     }
   }, [selected]);
   return (

@@ -23,7 +23,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
         <li onClick={() => setMenuOpen(false)}>
           <a href="#contact">Contact</a>
         </li>
-        <a href="https://www.linkedin.com/in/mauro-loyola/" target="_blank">
+        <a href="https://www.linkedin.com/in/mauro-loyola/">
           <img
             src="https://img.icons8.com/ios/500/linkedin.png"
             alt="linkedin"
@@ -31,7 +31,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
             height="40"
           />
         </a>
-        <a href="https://github.com/stringedcat" target="_blank">
+        <a href="https://github.com/stringedcat">
           <img
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="css3"
@@ -39,7 +39,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
             height="40"
           />
         </a>
-        <a href="https://www.instagram.com/mauro.lyola/" target="_blank">
+        <a href="https://www.instagram.com/mauro.lyola/">
           <img
             src="https://www.msm.gov.ar/wp-content/uploads/2020/05/new-instagram-logo-png-transparent-light.png"
             alt="linkedin"

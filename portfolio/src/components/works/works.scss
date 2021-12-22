@@ -96,7 +96,7 @@
               margin-bottom: 20px;
               color: $mainColor;
               @include mobile {
-                font-size: 11px;
+                font-size: 8.5px;
               }
             }
             h4 {
@@ -118,6 +118,9 @@
               font-weight: bold;
               text-decoration: none;
               color: $mainColor;
+              @include mobile {
+                font-size: 12px;
+              }
             }
           }
         }
