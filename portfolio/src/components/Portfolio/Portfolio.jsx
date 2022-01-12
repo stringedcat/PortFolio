@@ -45,13 +45,6 @@ const Portfolio = () => {
             </div>
           </a>
         ))}
-        {/*   <div className="item">
-          <img
-            src="https://www.smdwebtech.com/wp-content/uploads/2020/11/Mobile-Banking_1.png"
-            alt=""
-          />
-          <h3>Banking App</h3>
-        </div> */}
       </div>
     </div>
   );

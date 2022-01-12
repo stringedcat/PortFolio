@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/shake.svg" alt="" />
+        <img src="assets/contact.png" alt="" />
       </div>
       <div className="right">
         <h2>Contact</h2>
