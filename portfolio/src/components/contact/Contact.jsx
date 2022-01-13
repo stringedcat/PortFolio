@@ -3,6 +3,16 @@ import "./contact.scss";
 import emailjs from "emailjs-com";
 const Contact = () => {
   const [message, setMessage] = useState(false);
+  const [formValues, setFormValues] = useState({
+    username: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const handleChange = (e) => {
+    const { name, value } = e;
+    setFormValues({ ...formValues, [name]: value });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
