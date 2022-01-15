@@ -3,21 +3,21 @@ const Testimonials = () => {
   const data = [
     {
       id: 1,
+      name: "NextJS Hamburguer App",
+      title: "Next JS App ",
+      img: "https://bkmx.simplexanalytics.com.br/images/20_BK_05130_ImpossibleWhopperVisID_Hero_V2.png",
+      icon: "assets/linkedin.png",
+      href: "https://www.linkedin.com/in/joaquin-cardozo/",
+      desc: `Building an app with NextJS`,
+    },
+    {
+      id: 2,
       name: "Spring Java + React",
       title: "CRUD App using Spring backend and React",
       img: "https://cdn-thumbs.comidoc.net/750/4239058_e36a_3.jpg",
       href: "https://www.linkedin.com/in/lucas-luciano-lopez/",
       icon: "assets/linkedin.png",
       desc: `An app to learning how to use the Java framework Spring to use it in the backend, an the for the frontend off course ReactJS.`,
-    },
-    {
-      id: 2,
-      name: "React + Typescript",
-      title: "Todo App with Typescript",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
-      icon: "assets/linkedin.png",
-      href: "https://www.linkedin.com/in/joaquin-cardozo/",
-      desc: `A practice project about learning some typescript code in ReactJS and material UI library.`,
       featured: true,
     },
     {
