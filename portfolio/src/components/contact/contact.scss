@@ -83,6 +83,20 @@
 
       span {
         color: green;
+        font-size: 20px;
+        @include mobile {
+          margin-top: 10px;
+          height: 40px;
+          font-size: 13px;
+        }
+      }
+      p {
+        color: red;
+
+        @include mobile {
+          height: 40px;
+          font-size: 13px;
+        }
       }
     }
   }
