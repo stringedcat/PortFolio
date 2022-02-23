@@ -80,6 +80,7 @@ const Contact = () => {
             name="name"
             value={formValues.name}
             onChange={handleChange}
+            className="inputForm"
           />
           <p>{formErrors.name}</p>
           <input
@@ -88,6 +89,7 @@ const Contact = () => {
             name="email"
             value={formValues.email}
             onChange={handleChange}
+            className="inputForm"
           />
           <p>{formErrors.email}</p>
           <textarea
@@ -95,6 +97,7 @@ const Contact = () => {
             name="message"
             value={formValues.message}
             onChange={handleChange}
+            className="inputForm"
           />
           <p>{formErrors.message}</p>
           <button type="submit">Send</button>
