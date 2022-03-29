@@ -3,9 +3,9 @@ const Testimonials = () => {
   const data = [
     {
       id: 1,
-      name: "NextJS Hamburguer App",
+      name: "NextJS Pizza App",
       title: "Next JS App ",
-      img: "https://bkmx.simplexanalytics.com.br/images/20_BK_05130_ImpossibleWhopperVisID_Hero_V2.png",
+      img: "https://pngimg.com/uploads/pizza/pizza_PNG44084.png",
       icon: "assets/linkedin.png",
       href: "https://www.linkedin.com/in/joaquin-cardozo/",
       desc: `Building an app with NextJS`,
